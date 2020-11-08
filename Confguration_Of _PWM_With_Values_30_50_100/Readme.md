@@ -22,7 +22,6 @@ The example bellow show how you can calculate a PWM signal period :
 * TIM_Period : numerical value to put in **Counter Period(AutoReloadReg)**
 * Pulse (32 bits value) contains the value of the duty cycle.
 
-<<<<<<< HEAD
 The calculated value of TIM_Period must be less than 65535 which represents the value maximum that can be put in a 16-bit register. In order to meet this requirement, you will need to choose **Prescaler** in **Counter Settings**.  
 Let's set Prescaler = 0.
 Suppose that the PWM frequency is chosen equal to 10 KHz, then :  
