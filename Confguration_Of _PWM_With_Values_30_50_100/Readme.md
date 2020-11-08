@@ -36,7 +36,7 @@ The value of the Duty Cycle will be between [ 0 and 6399 ], let's take this valu
 The calculated values will be entered during the definition of the TIMERx parameters in STM32CubeMX.
 
 The Commande to start the PWM is :  
-**HAL_TIM_PWM_Start( &htim2, TIM_CHANNEL_1 );**
+**HAL_TIM_PWM_Start( &htimx, TIM_CHANNEL_1 );**
 
 During the execution of the main program, it is sometimes necessary to modify the Duty Cycle, So two instructions from the **__HAL** library will be needed to vary duty_cycle :  
 
