@@ -1,3 +1,6 @@
+> Author  
+> [Safouene Mahfoudh](https://github.com/Safouene-Mahfoudh)  
+
 According to the datasheet of hc-sr04, the following is required to be done :
 
 * Keep the Trig pin HIGH for at least 10us
