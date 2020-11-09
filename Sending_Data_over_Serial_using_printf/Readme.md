@@ -1,4 +1,11 @@
-The serial transmission is of the asynchronous type. The DISCOVERY board has several RS232 outputs: synchronous or asynchronous type.
+> Author  
+> [Safouene Mahfoudh](https://github.com/Safouene-Mahfoudh)
+
+
+
+
+
+The serial transmission used in this example is the asynchronous type. The DISCOVERY board has several RS232 outputs: synchronous or asynchronous type.
 * USART1: Pins PA9 and PA10
 * USART2: Pins PA2: TX and PA3: RX
 * USART3: Pins PB10 and PB11
