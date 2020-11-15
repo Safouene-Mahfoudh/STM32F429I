@@ -36,10 +36,8 @@ Let's set Prescaler = 0.
 
 Suppose that the PWM frequency is chosen equal to 10 KHz, then :  
 The calculated value of TIM_Period must be less than 65535 which represents the value maximum that can be put in a 16-bit register. In order to meet this requirement, you will need to choose **Prescaler** in **Counter Settings**.
-Let's set Prescaler = 0.
-Suppose that the PWM frequency is chosen equal to 10 KHz, then :
 
-**TIM_Period= 64 000 000 / 10 000 -1 = 6399**  
+**TIM_Period= 64 000 000 / 10 000 -1 = 6399**    
 The value of the Duty Cycle will be between [ 0 and 6399 ], let's take this value very close to **50%**, it will be around **3199**.    
 
 The calculated values will be entered during the definition of the TIMERx parameters in STM32CubeMX.
